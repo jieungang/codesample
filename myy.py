@@ -3,9 +3,9 @@ import json
 with open("my.json","r") as f:
     y = json.loads(f.read())
     print(y)
-    print(y["data"][0]["name"])-하나만
+    print(y["data"][0]["name"])#-하나만
     
-    for item in y["data"]:-계속 돌아감
+    for item in y["data"]:#-계속 돌아감
         print(item["name"])
         
     for item in y["data"]:
