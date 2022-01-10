@@ -252,4 +252,3 @@ def average_score(team_name):
     
 average_score(team_a)
 average_score(team_b)
-
